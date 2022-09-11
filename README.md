@@ -13,3 +13,11 @@ The listings use Google geocoding to get the coords from the address field. You 
 ```bash
 npm start
 ```
+
+
+// FOR STORAGE RULES
+
+: if
+      request.auth != null &&
+      request.resource.size < 2 * 1024 * 1024 && //2MB
+      request.resource.contentType.matches('image/.*')

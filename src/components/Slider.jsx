@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { collection, getDocs, query, orderBy, limit } from 'firebase/firestore'
@@ -9,11 +10,10 @@ import Spinner from './Spinner'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
 
 function Slider() {
-  const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true)
   const [listings, setListings] = useState(null)
 
   const navigate = useNavigate()
-
   useEffect(() => {
     const fetchListings = async () => {
       const listingsRef = collection(db, 'listings')
@@ -28,7 +28,7 @@ function Slider() {
           data: doc.data(),
         })
       })
-
+     console.log(listings)
       setListings(listings)
       setLoading(false)
     }
@@ -39,10 +39,11 @@ function Slider() {
   if (loading) {
     return <Spinner />
   }
-
+  
   if (listings.length === 0) {
     return <></>
   }
+
 
   return (
     listings && (
@@ -57,7 +58,7 @@ function Slider() {
             >
               <div
                 style={{
-                  background: `url(${data.imgUrls[0]}) center no-repeat`,
+                  background: `url(${data.imageUrls[0]}) center no-repeat`,
                   backgroundSize: 'cover',
                 }}
                 className='swiperSlideDiv'

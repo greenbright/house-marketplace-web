@@ -90,7 +90,7 @@ function CreateListing() {
     let geolocation = {}
     let location
 
-    if (geolocationEnabled) {
+    /*if (geolocationEnabled) {
       const response = await fetch(
         `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${process.env.REACT_APP_GEOCODE_API_KEY}`
       )
@@ -113,7 +113,7 @@ function CreateListing() {
     } else {
       geolocation.lat = latitude
       geolocation.lng = longitude
-    }
+    }*/
 
     // Store image in firebase
     const storeImage = async (image) => {
@@ -156,17 +156,18 @@ function CreateListing() {
       })
     }
 
-    const imgUrls = await Promise.all(
+    const imageUrls = await Promise.all(
       [...images].map((image) => storeImage(image))
-    ).catch(() => {
+    ).catch((error) => {
       setLoading(false)
-      toast.error('Images not uploaded')
+      console.log(error)
+      //toast.error('Images not uploaded')
       return
     })
-
+    console.log(imageUrls)
     const formDataCopy = {
       ...formData,
-      imgUrls,
+      imageUrls,
       geolocation,
       timestamp: serverTimestamp(),
     }
