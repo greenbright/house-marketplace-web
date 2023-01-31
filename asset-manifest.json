@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/house-marketplace-web/static/css/main.dbc69f6c.chunk.css",
+    "main.js": "/house-marketplace-web/static/js/main.de5b52c3.chunk.js",
+    "main.js.map": "/house-marketplace-web/static/js/main.de5b52c3.chunk.js.map",
+    "runtime-main.js": "/house-marketplace-web/static/js/runtime-main.12c3882b.js",
+    "runtime-main.js.map": "/house-marketplace-web/static/js/runtime-main.12c3882b.js.map",
+    "static/css/2.77e979dc.chunk.css": "/house-marketplace-web/static/css/2.77e979dc.chunk.css",
+    "static/js/2.99e91bbe.chunk.js": "/house-marketplace-web/static/js/2.99e91bbe.chunk.js",
+    "static/js/2.99e91bbe.chunk.js.map": "/house-marketplace-web/static/js/2.99e91bbe.chunk.js.map",
+    "index.html": "/house-marketplace-web/index.html",
+    "static/css/2.77e979dc.chunk.css.map": "/house-marketplace-web/static/css/2.77e979dc.chunk.css.map",
+    "static/css/main.dbc69f6c.chunk.css.map": "/house-marketplace-web/static/css/main.dbc69f6c.chunk.css.map",
+    "static/js/2.99e91bbe.chunk.js.LICENSE.txt": "/house-marketplace-web/static/js/2.99e91bbe.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/house-marketplace-web/static/media/personIcon.60c17ce3.svg",
+    "static/media/bathtubIcon.b95c8ddb.svg": "/house-marketplace-web/static/media/bathtubIcon.b95c8ddb.svg",
+    "static/media/bedIcon.eefa75b1.svg": "/house-marketplace-web/static/media/bedIcon.eefa75b1.svg",
+    "static/media/deleteIcon.a53e2203.svg": "/house-marketplace-web/static/media/deleteIcon.a53e2203.svg",
+    "static/media/editIcon.9b527df0.svg": "/house-marketplace-web/static/media/editIcon.9b527df0.svg",
+    "static/media/exploreIcon.46f5bb69.svg": "/house-marketplace-web/static/media/exploreIcon.46f5bb69.svg",
+    "static/media/googleIcon.a2a9c863.svg": "/house-marketplace-web/static/media/googleIcon.a2a9c863.svg",
+    "static/media/homeIcon.09f28a71.svg": "/house-marketplace-web/static/media/homeIcon.09f28a71.svg",
+    "static/media/keyboardArrowRightIcon.8cee54be.svg": "/house-marketplace-web/static/media/keyboardArrowRightIcon.8cee54be.svg",
+    "static/media/localOfferIcon.2f90605b.svg": "/house-marketplace-web/static/media/localOfferIcon.2f90605b.svg",
+    "static/media/personOutlineIcon.f67a0190.svg": "/house-marketplace-web/static/media/personOutlineIcon.f67a0190.svg",
+    "static/media/rentCategoryImage.cd9f0150.jpg": "/house-marketplace-web/static/media/rentCategoryImage.cd9f0150.jpg",
+    "static/media/sellCategoryImage.c4d28ee7.jpg": "/house-marketplace-web/static/media/sellCategoryImage.c4d28ee7.jpg",
+    "static/media/shareIcon.cbe96fad.svg": "/house-marketplace-web/static/media/shareIcon.cbe96fad.svg",
+    "static/media/visibilityIcon.d42e2dff.svg": "/house-marketplace-web/static/media/visibilityIcon.d42e2dff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12c3882b.js",
+    "static/css/2.77e979dc.chunk.css",
+    "static/js/2.99e91bbe.chunk.js",
+    "static/css/main.dbc69f6c.chunk.css",
+    "static/js/main.de5b52c3.chunk.js"
+  ]
+}
